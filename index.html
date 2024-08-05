@@ -5,40 +5,43 @@
 
     <!-- "Head" contains meta information about this web page. -->
     <head>
+
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
         
         <!-- This link allows me to use an external document to change the CSS on different elements on this web page-->
         <link rel="stylesheet" href="style.css">
-
 
         <!-- Creating a title for the web page (the name that will be displayed as the browsers tab) -->
         <title>Kiwi Cuisine Website</title>
     </head>
 
-    <!-- Creating a body for which text can be placed onto the actual Website. -->
     <body>
+            <!-- Creating a div for the header-->
+            <div class="header">
+                <div class="top-nav">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">BROWSE</a></li>
+                        <li><a href="#">SUGGEST</a></li>
+                        <li><a href="#">SEARCH</a></li>
+                    </ul>
+                    <button>CONTACT US</button>
+                </div>
+                
+                <!-- Creating a side navigation bar featuring a logo, and a browse selection text link-->
+                <div class="side-nav">
+                    <img src="images/dinner.png" alt="Logo for webpage" class="logo" width="68" height="68">
+                    <a href="#">BROWSE SELECTION</a>
 
-        <!-- Creating a header to display at the top of the website-->
-         <header>
+                </div>
 
-            <!-- Linking an image to the webpage using the src="" attribute. Also changing the size of the image using the width and height attributes-->
-          <img src="images/serving-dish.png" width="50" height="50">
-          <button type="button">Home</button>
-          <button type="button">Browse</button>
-          <button type="button">Suggest</button>
-         </header>
-        <!-- Heading text for the website. Will be displayed at the top of the page, is basically a title-->
-        <h1>Kiwi Cusines - History And Recipes</h1>
+                <!-- Creating a text box for the heading text -->
+                <div class="text-box">
+                    <h1>KIWI CUISINE - FOOD AND HISTORY</h1>
 
-        <!-- Paragraph text to describe what the website is about. It will be displayed under the heading tex, and gives the user information on what this
-         website will contain -->
-        <p>This website is all about Kiwi cuisines, how to make them, and the history behind them! It's an all informative website that should give foriegners
-            insight into the Kiwi culture, what type of cusine we eat, and the cultural significance of this.
+                </div>
+           </div>
 
-            <!-- Adding a horizontal line to split both parts of this paragraph text. It will still be apart of the same paragraph just with a line inbetween -->
-            <hr>
-            This website will contain a browse, suggest, and content page for each of the recipes. Each recipe will be sorted depending on which season it is
-            made in. For example, for winter a recipe will be lamb roast, for summer the recipe will be pavalova, for spring the recipe will be whitebait
-            fritters, and for autumn the recipe will be pies.
-        </p>
+
     </body>
 </html>
