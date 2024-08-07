@@ -1,6 +1,6 @@
 /*Styling the header*/
 .header {
-    width: 90%;
+    width: 100%;
     height: 100vh;
     background: #000942;
     padding-left: 8%;
@@ -103,5 +103,13 @@
     max-width: 8000px;
     line-height: 95px;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.text-box2 {
+    color: #ffff;
+}
+
+.text-box2 p {
+    font-size: 180%;
 }

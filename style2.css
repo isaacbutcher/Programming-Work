@@ -1,0 +1,53 @@
+/*Changing the border sizing */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Changing the foote background colour */
+footer{
+    background-color: #111;
+}
+
+/* Adding a margin for the footer text */
+.navfooter {
+    padding-top: 20px;
+    margin: 0px 0;
+}
+
+/*Changing the positioning of the text in the footer */
+.navfooter ul {
+    display: flex;
+    justify-content: center;
+}
+
+/* Changing the text color and spacing around it */
+.navfooter ul li a{
+    color: #ffff;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+/* Adding a background colour to the text at the very bottom of the footer */
+.footerbottom {
+    background-color: #0000;
+    padding: 20px;
+    text-align: center;
+}
+/* Changing the colour of the text at the very bottom of the footer */
+.footerbottom p{
+    color: #ffff;
+}
+
+/* Adding a stand-out text to the designer name
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}

@@ -24,7 +24,7 @@
                         <li><a href="index.php">HOME</a></li>
                         <li><a href="browse.php">BROWSE</a></li>
                         <li><a href="suggest.php">SUGGEST</a></li>
-                        <li><a href="#">SEARCH</a></li>
+                        <li><a href="">SEARCH</a></li>
                     </ul>
                     <button><a href="contactus.php">CONTACT US</a></button>
                 </div>
@@ -33,20 +33,8 @@
 
                 <!-- Creating a text box for the heading text -->
                 <div class="text-box">
-                    <h1>KIWI CUISINE - FOOD AND HISTORY</h1>
+                    <h1>SUGGEST</h1>
 
-                </div>
-
-                <!-- Creating another text box to describe what the website is about and how significant it is-->
-                <div class="text-box2">
-                    <p>This website is all about Kiwi cuisines, how to make them, and the history behind them! It's an all informative website that should give foriegners
-                        insight into the Kiwi culture, what type of cusine we eat, and the cultural significance of this.
-            
-                        <!-- Adding a horizontal line to split both parts of this paragraph text. It will still be apart of the same paragraph just with a line inbetween -->
-                        <br>
-                        This website will contain a browse, suggest, and content page for each of the recipes. Each recipe will be sorted depending on which season it is
-                        made in. For example, for winter a recipe will be lamb roast, for summer the recipe will be pavalova, for spring the recipe will be whitebait
-                        fritters, and for autumn the recipe will be pies.
                 </div>
            </div>
 
