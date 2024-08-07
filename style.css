@@ -113,3 +113,13 @@
 .text-box2 p {
     font-size: 180%;
 }
+
+/* Styling the results div */
+.results{
+    background-color: #3f51b5; 
+    border-radius: 10px;
+    border: 1px solid #0000;
+    border-color: #0000;
+    padding: 5px;
+}
+

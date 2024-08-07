@@ -3,6 +3,23 @@
 
 <html>
 
+    <?php 
+        // Transfers variables between pages
+        session_start();
+        include("config.php");
+
+        // Connecting to the database
+        $dbconnect=mysqli_connect(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
+
+        if (mysqli_connect_errno())
+
+            {
+                echo "Connecting failed:".mysqli_connect_error();
+                exit;
+            }
+        
+    ?>
+
     <!-- "Head" contains meta information about this web page. -->
     <head>
 
