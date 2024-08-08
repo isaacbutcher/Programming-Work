@@ -1,0 +1,67 @@
+p {
+    font-family: arial;
+}
+
+h3 {
+    font-family: Arial;
+}
+
+/* Styling the article element */
+article {
+    background-color: #ffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color: #0000;
+}
+
+article h3 {
+    margin: 10px 0 25px 0;
+}
+
+article p {
+    margin-top: 16px;
+    line-height: 24px;
+}
+
+/* Styling the h2 element */
+h2 {
+    text-align: center;
+}
+
+article {
+    text-align: center;
+}
+article li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Styling the images in the recipe showcase */
+.whitebaitfritters {
+    height: 70px;
+    width: 100px;
+}
+
+.lambroast {
+    height: 70px;
+    width: 120px;
+}
+
+.minceandcheese {
+    height: 70px;
+    width: 120px;
+}
+
+.kumara {
+    height: 70px;
+    width: 100px;
+}
+
+.pumpkin {
+    height: 70px;
+    width: 80px;
+}

@@ -34,7 +34,18 @@
     </head>
     
     <?php
-    $browse_sql="SELECT * FROM `recipes` ORDER BY `recipes`.`Food Name` ASC";
+
+    // If find button is pushed
+    if (isset($_POST['find_food']) )
+    {
+
+    ?>
+    
+    <?php
+
+    $food = $_POST['food'];
+
+    $browse_sql="SELECT * FROM `recipes` WHERE `Food Name` LIKE '%$food%'";
     $browse_query=mysqli_query( $dbconnect, $browse_sql );
 
     // Organising the information
@@ -56,7 +67,7 @@
                         <!-- Start of searching via food name -->
                         <li><form method="post" action="search.php" enctype="multipart/form-data">
                         <input class="search" type="text" name="food" size="40" value="" required placeholder="Search..." />
-                        <input class="submit" type="submit" name="find_food" value="search" />
+                        <input class="submit" type="submit" name="find_food" value="Search" />
                         </form></li>
 
 
@@ -70,7 +81,7 @@
 
                 <!-- Creating a text box for the heading text -->
                 <div class="text-box">
-                    <h1>BROWSE</h1>
+                    <h1>SEARCH</h1>
                 <?php
                 // Checking for results
                 if ($count<1)
@@ -115,10 +126,12 @@
                     while ($browse_rs=mysqli_fetch_assoc($browse_query ));
                 }
                 // If there are results, show them
+
+            }
                 ?>
-                 
+    
                 </div>
            </div>
+        
     </body>
-
 </html>

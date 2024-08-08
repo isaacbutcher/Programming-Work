@@ -1,0 +1,28 @@
+/* Styling the different texts, changing their fonts */
+h1 {
+    font-family: verdana;
+}
+
+p {
+    font-family: arial;
+}
+
+li {
+    font-family: verdana;
+}
+
+/* Styling the survey questions text, changing their fonts, colours, and input box */
+.formgroup {
+    color: #ffff;
+    font-family: arial;
+    padding-bottom: 3.4%;
+}
+
+.formcontrol {
+    width: 58%;
+}
+
+/* Decreasing the search box size in the header */
+.search {
+    width: 40%
+}

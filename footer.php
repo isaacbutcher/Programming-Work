@@ -6,7 +6,6 @@
     <link rel="stylesheet"href="style2.css">
     <title>Kiwi Cuisine Website</title>
 </head>
-<body>
 
  <footer>
        <!-- Creating a div for the footer -->
@@ -16,6 +15,7 @@
             <li><a href="browse.php">Browse</a></li>
             <li><a href="suggest.php">Suggest</a></li>
             <li><a href="contactus.php">Contact Us</a></li>
+
         </ul>
     </div>
     <!-- Creating another div for the bottom of the footer -->
@@ -24,5 +24,4 @@
     </div>
 </footer>
     
-</body>
 </html>
